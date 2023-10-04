@@ -36,8 +36,7 @@ public void setSecondPassword(String secondPassword) {
  * private -해당 클래스에서만 사용이 가능
  * 
  * void -  리턴타입이 없음. 문법적인 이유라고 보면됨. 해당 void가 없을경우 return이 있어야함.
- * return - void가 아닌경우 사용하는데, 해당 return (내용) ; 해주면 해당 내용을 리턴함 .
- * -? 어디로 리턴함!?
+ * return - void가 아닌경우 사용하는데, 해당 return (내용) ; 해주면 해당 내용을 리턴함 . 
  */
 	
 }
