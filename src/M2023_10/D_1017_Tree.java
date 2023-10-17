@@ -87,7 +87,7 @@ public class D_1017_Tree {
 	    }
 	}
 	 
-	class Solution {
+	class Solution2 {
 	     
 	    public static void main(String arg[]) throws Exception {
 	        Scanner sc = new Scanner(System.in);
