@@ -18,7 +18,7 @@ import java.util.Scanner;
 	5 : front 에 있는 element 삭제
 	6 : rear 에 있는 element 삭제
  */
-public class D_1025 {
+public class D_1025Deque {
 
 	static final int MAX = 100;
 
