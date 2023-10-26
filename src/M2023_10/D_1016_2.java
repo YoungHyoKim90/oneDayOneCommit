@@ -64,7 +64,7 @@ class Hashtable
 }
      
  
-class Solution
+class Solution_a
 {
     final static int MAX_TABLE = 4096;
      
