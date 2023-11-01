@@ -15,6 +15,7 @@ import java.util.Scanner;
  */
 public class D_1101 {
 
+	
 	    static final int MAX_X = 2;
 	    static final int MAX_N = 1001;
 	 
