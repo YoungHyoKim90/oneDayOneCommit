@@ -18,7 +18,7 @@ public class D_1107CodingTestSolution {
 
         System.out.println(a + " + " + b + " = " + sum);
         
-        String c = String.format("%d + %d = %d", a, b, a+b);
+//        String c = String.format("%d + %d = %d", a, b, a+b);
         System.out.println(c);
         System.out.println(String.format("%d + %d = %d", a, b, a+b));
 	}
