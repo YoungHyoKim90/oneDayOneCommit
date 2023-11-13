@@ -2,7 +2,7 @@ package M2023_11;
 //none Here
 public class D_1113Test {
 /*
- * Permutation & Combination
+ * Permutation & Combination.
 
 개요
 순열조합(permutation combination), 순열은 순서가 부여된 임의의 집합을 다른 순서로 뒤섞는 연산이며, 조합은 집합에서 일부 원소를 취해 부분 집합을 만드는 방법을 말한다.
