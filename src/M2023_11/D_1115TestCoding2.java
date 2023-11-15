@@ -15,14 +15,14 @@ public class D_1115TestCoding2 {
 		System.out.println("Scanner 기능을 종료할까요?");
 		boolean answer = true ; //yes 인경우 true no인 경우 false로 사용하자.
 		String yNanswer = sc.next();
-		if(yNanswer.equals("y")) {
+		if(yNanswer.equals("y")) { // 해당 질문이 들어온 경우 else로 system.exit로 끝내는게 오히려 쉽지 않나? 아무키나 입력하라고 하고.
 			
 			System.out.println("Scanner 기능을 종료합니다.");
 			
 			sc.close();
 			
 			System.out.println("Scanner 기능이 종료되었습니다.");
-		}else {
+		}else { // 입력한 값이 "y"가 아닌 경우
 			System.out.println("텍스트를 입력해주세요.");
 			
 			input = sc.next();
