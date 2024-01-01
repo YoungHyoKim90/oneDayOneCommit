@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class Java8FeaturesExplanation {
+public class D_0102_Java8FeaturesExplanation {
     public static void main(String[] args) {
         // 람다 표현식
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
