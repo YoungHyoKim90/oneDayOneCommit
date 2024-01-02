@@ -3,7 +3,7 @@ package M2024_01;
 import java.util.Arrays;
 import java.util.List;
 
-public class D_1003_LambdaFilterExample {
+public class D_0103_LambdaFilterExample {
     public static void main(String[] args) {
         List<String> languages = Arrays.asList("Java", "Python", "C++", "JavaScript", "Ruby");
 
