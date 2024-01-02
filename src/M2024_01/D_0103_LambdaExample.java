@@ -3,7 +3,7 @@ package M2024_01;
 import java.util.Arrays;
 import java.util.List;
 
-public class D_1003_LambdaExample {
+public class D_0103_LambdaExample {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 
