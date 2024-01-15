@@ -21,3 +21,14 @@ public class ExecutionTimeLogger {
     }
 }
 
+/*
+public class MyClass {
+public static void main(String[] args) {
+    ExecutionTimeLogger.startLogging();
+
+    // MyClass에서 실행되는 코드
+
+    ExecutionTimeLogger.stopLogging("MyClass");
+}
+}
+*/
