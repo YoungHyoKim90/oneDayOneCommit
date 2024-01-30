@@ -19,7 +19,8 @@ public class D_1006{
         if (memberId.length() < 5 || memberId.length() > 20) {
             return false;
         }
-
+ 
+        
         // 영어 대소문자, 숫자, 특수문자만 포함되는지 확인
         String pattern = "^[a-zA-Z0-9!@#$%^&*()-_=+\\\\|;:'\",.<>/?]*$";
         Matcher matcher = Pattern.compile(pattern).matcher(memberId);
