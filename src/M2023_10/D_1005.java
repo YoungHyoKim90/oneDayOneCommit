@@ -38,6 +38,7 @@ public class D_1005 {
         $('#ck3').prop('checked',!checked);
     });
     
+    
     $('#allCk').click(function(){
         var checked = $('#allCk').is(':checked');
         $('input:checkbox').prop('checked',!checked);
