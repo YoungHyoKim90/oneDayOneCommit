@@ -13,7 +13,7 @@ public class D_1004 {
 			System.out.println("반복문입니다.");
 			System.out.println(cnt + "번 반복중 입니다.");
 			cnt ++;
-			System.out.println("-----------------------");
+			System.out.println("-------------------------");
 		}
 	}
 }
