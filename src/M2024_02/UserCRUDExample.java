@@ -25,7 +25,9 @@ public class UserCRUDExample {
 
             
             System.out.println("User created successfully.");
-
+    
+            
+            
         } catch (SQLException e) {
             e.printStackTrace();
         }
