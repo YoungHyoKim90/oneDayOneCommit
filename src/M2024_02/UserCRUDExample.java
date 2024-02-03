@@ -23,6 +23,7 @@ public class UserCRUDExample {
             String insertQuery = "INSERT INTO users (username, email) VALUES ('john_doe', 'john@example.com')";
             statement.executeUpdate(insertQuery);
 
+            
             System.out.println("User created successfully.");
 
         } catch (SQLException e) {
