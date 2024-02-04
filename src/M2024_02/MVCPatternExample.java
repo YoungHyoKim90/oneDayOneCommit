@@ -12,6 +12,7 @@ public class MVCPatternExample {
 
         // 뷰 업데이트
         userController.updateUserView();
+        
     }
 }
 
