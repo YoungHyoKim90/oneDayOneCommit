@@ -7,9 +7,12 @@ public class MVCPatternExample {
         UserView userView = new UserView();
         UserController userController = new UserController(userModel, userView);
 
+        
+        
         // 사용자 정보 설정
         userController.setUserDetails("john_doe", "john@example.com");
 
+        
         // 뷰 업데이트
         userController.updateUserView();
         

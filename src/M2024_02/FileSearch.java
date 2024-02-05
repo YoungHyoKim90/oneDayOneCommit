@@ -20,7 +20,9 @@ public class FileSearch {
             }
         } catch (IOException e) {
             e.printStackTrace();
+            
         }
+        
     }
 
     private static List<Path> searchFiles(String directoryPath, String searchKeyword) throws IOException {
