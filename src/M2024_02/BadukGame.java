@@ -3,6 +3,7 @@ package M2024_02;
 import java.util.Scanner;
 
 public class BadukGame {
+	
     public static final int BOARD_SIZE = 9;
     public static final char EMPTY = '-';
     public static final char BLACK_STONE = '●';
