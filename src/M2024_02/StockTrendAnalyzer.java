@@ -45,6 +45,7 @@ public class StockTrendAnalyzer {
         boolean uptrend = true;
         boolean downtrend = true;
 
+        
         for (int i = 1; i < movingAverages.length; i++) {
             if (movingAverages[i] > movingAverages[i - 1]) {
                 downtrend = false;
@@ -53,6 +54,7 @@ public class StockTrendAnalyzer {
             }
         }
 
+        
         if (uptrend) {
             System.out.println("Trend: Upward");
         } else if (downtrend) {
