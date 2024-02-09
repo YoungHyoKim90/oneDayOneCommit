@@ -21,12 +21,14 @@ public class FileExtensionConverter {
             return;
         }
 
+        
         File[] files = directory.listFiles();
         if (files == null) {
             System.out.println("No files found in the directory.");
             return;
         }
 
+        
         for (File file : files) {
             if (file.isFile() && file.getName().endsWith(originalExtension)) {
                 String newName = file.getName().replace(originalExtension, newExtension);
