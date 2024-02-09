@@ -21,6 +21,7 @@ public class AESEncryptionExample {
             return null;
         }
     }
+    
 
     public static String decrypt(String encryptedData) {
         try {
@@ -35,6 +36,7 @@ public class AESEncryptionExample {
         }
     }
 
+    
     public static void main(String[] args) {
         String originalData = "Hello, World!";
         String encryptedData = encrypt(originalData);
@@ -43,3 +45,4 @@ public class AESEncryptionExample {
         System.out.println("Decrypted data: " + decryptedData);
     }
 }
+
