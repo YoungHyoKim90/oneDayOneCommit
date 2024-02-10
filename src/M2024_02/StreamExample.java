@@ -13,10 +13,12 @@ public class StreamExample {
                 System.out.println(name);
             }
         }
+        
 
         // 스트림 API 사용
         names.stream()
              .filter(name -> name.startsWith("A"))
              .forEach(System.out::println);
+        
     }
 }
