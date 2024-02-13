@@ -15,6 +15,7 @@ public class CBTQuestionGenerator {
         generateRandomQuestion(questionsAndAnswers);
     }
 
+    
     public static void generateRandomQuestion(Map<String, String> questionsAndAnswers) {
         // 문제 리스트를 배열로 변환
         List<String> questions = new ArrayList<>(questionsAndAnswers.keySet());
