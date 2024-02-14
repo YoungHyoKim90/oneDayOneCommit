@@ -9,6 +9,7 @@ public class DecryptionProgram {
     private static final String secretKey = "YourSecretKey"; // 16, 24, 32 bytes
     private static final String algorithm = "AES";
 
+    
     public static String decrypt(String encryptedText) {
         try {
             SecretKeySpec secretKeySpec = new SecretKeySpec(secretKey.getBytes(), algorithm);
@@ -22,6 +23,7 @@ public class DecryptionProgram {
         }
     }
 
+    
     public static void main(String[] args) {
         // 암호화된 텍스트
         String encryptedText = "EnterYourEncryptedTextHere";
