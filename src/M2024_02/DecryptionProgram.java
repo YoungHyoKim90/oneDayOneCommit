@@ -34,6 +34,7 @@ public class DecryptionProgram {
             System.out.println("Decrypted Text: " + decryptedText);
         } else {
             System.out.println("Decryption failed.");
+            
         }
     }
 }
