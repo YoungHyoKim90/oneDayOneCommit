@@ -16,17 +16,21 @@ public class DynamicQueryExample {
 
     public static void main(String[] args) {
         try {
+        	
             // JDBC 드라이버 로드
             Class.forName("oracle.jdbc.driver.OracleDriver");
 
+            
             // 데이터베이스 연결
             Connection conn = DriverManager.getConnection(url, username, password);
 
+            
             // 사용자 입력 받기
             Scanner scanner = new Scanner(System.in);
             System.out.print("Enter query type (1: Select, 2: Insert, 3: Update, 4: Delete): ");
             int queryType = scanner.nextInt();
 
+            
             // 사용자 입력에 따라 쿼리 선택
             String query = "";
             switch (queryType) {
