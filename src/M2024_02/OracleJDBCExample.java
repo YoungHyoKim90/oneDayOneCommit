@@ -14,6 +14,7 @@ public class OracleJDBCExample {
         String username = "yourUsername"; // 데이터베이스 사용자 이름
         String password = "yourPassword"; // 데이터베이스 암호
 
+        
         // JDBC 연결 객체
         Connection conn = null;
         // SQL 문 실행 객체
@@ -21,6 +22,7 @@ public class OracleJDBCExample {
         // SQL 결과 집합 객체
         ResultSet rs = null;
 
+        
         try {
             // JDBC 드라이버 로드
             Class.forName("oracle.jdbc.driver.OracleDriver");
