@@ -19,6 +19,7 @@ public class EncryptionUtils {
         }
     }
 
+    
     public static String decrypt(String strToDecrypt) {
         try {
             SecretKeySpec secretKeySpec = new SecretKeySpec(secretKey.getBytes(), "AES");
@@ -31,6 +32,7 @@ public class EncryptionUtils {
         }
     }
 }
+
 
 //public class Main2 {
 //    public static void main(String[] args) {
