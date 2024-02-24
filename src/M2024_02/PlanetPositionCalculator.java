@@ -8,11 +8,13 @@ public class PlanetPositionCalculator {
         LocalDateTime currentTime = LocalDateTime.now();
         System.out.println("현재 시간: " + currentTime);
 
+        
         // 각 행성의 xyz 좌표 계산
         double[] earthPosition = calculatePlanetPosition("Earth", currentTime);
         double[] marsPosition = calculatePlanetPosition("Mars", currentTime);
         double[] venusPosition = calculatePlanetPosition("Venus", currentTime);
 
+        
         // 결과 출력
         System.out.println("지구의 위치: x=" + earthPosition[0] + ", y=" + earthPosition[1] + ", z=" + earthPosition[2]);
         System.out.println("화성의 위치: x=" + marsPosition[0] + ", y=" + marsPosition[1] + ", z=" + marsPosition[2]);
