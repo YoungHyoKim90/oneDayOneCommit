@@ -26,6 +26,7 @@ public class EconomicIndexCalculator {
         System.out.print("예상 경기 순환 지수: ");
         double businessCycleIndex = scanner.nextDouble();
 
+        
         // 가중 평균을 사용하여 경제 예상 지수 계산
         double economicIndex = (unemploymentRate * unemploymentWeight +
                                 consumerConfidenceIndex * consumerConfidenceWeight +
