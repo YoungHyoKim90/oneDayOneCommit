@@ -11,14 +11,17 @@ public class CharacterMovement {
         // 콘솔에서 입력 받기 위한 Scanner 객체 생성
         Scanner scanner = new Scanner(System.in);
 
+        
         while (true) {
             // 현재 위치 출력
             System.out.println("현재 위치: (" + x + ", " + y + ")");
 
+            
             // 사용자로부터 이동 방향 입력 받기
             System.out.print("이동 방향을 입력하세요 (상: W, 하: S, 좌: A, 우: D): ");
             String direction = scanner.nextLine().toUpperCase(); // 입력값을 대문자로 변환하여 처리
 
+            
             // 캐릭터 이동 처리
             switch (direction) {
                 case "W":
