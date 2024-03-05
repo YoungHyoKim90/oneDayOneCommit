@@ -51,6 +51,8 @@ import java.lang.annotation.Target;
    	   
    }
    
+   
+   
    애너테이션 요소의 규칙
   1. 요소타입은 기본형, String, enum, 애너테이션, class만 허용한다.
   2. ()안에 매개변수를 선언할 수 없다.
