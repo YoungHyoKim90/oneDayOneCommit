@@ -6,6 +6,7 @@ public class DrugAbsorptionCalculator {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
+		
 		// 약물의 흡수 속도 상수 입력 받기 (예: 0.1은 10%가 1시간에 흡수됨을 의미)
 		System.out.print("약물의 흡수 속도를 입력하세요 (단위: 시간당 흡수 비율, 예: 0.1): ");
 		double absorptionRate = scanner.nextDouble();
