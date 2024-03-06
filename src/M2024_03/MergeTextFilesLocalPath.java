@@ -16,8 +16,10 @@ public class MergeTextFilesLocalPath {
                 }
             });
 
+            
             Arrays.sort(files);
 
+            
             String mergedFileName = folderPath + "/통합파일.txt";
 
             FileWriter mergedFileWriter = new FileWriter(mergedFileName);
