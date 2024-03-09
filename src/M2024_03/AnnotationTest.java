@@ -10,9 +10,12 @@ public class AnnotationTest {
 		// 선언된 메서드 목록 가져오기
 		Method[] methodArr = Service.class.getDeclaredMethods();
 		
+		
 		for(Method m : methodArr) {
 			
+			
 			System.out.println("메서드명 : " + m.getName());
+			
 			
 			Annotation[] annos = m.getDeclaredAnnotations();
 			
