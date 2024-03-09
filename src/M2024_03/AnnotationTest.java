@@ -13,9 +13,7 @@ public class AnnotationTest {
 		
 		for(Method m : methodArr) {
 			
-			
 			System.out.println("메서드명 : " + m.getName());
-			
 			
 			Annotation[] annos = m.getDeclaredAnnotations();
 			
