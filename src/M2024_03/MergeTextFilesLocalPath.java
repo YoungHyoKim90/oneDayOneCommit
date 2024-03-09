@@ -33,12 +33,9 @@ public class MergeTextFilesLocalPath {
                     mergedFileWriter.write(line);
                     mergedFileWriter.write("\n"); // 각 줄을 쓸 때마다 줄 바꿈 문자를 추가.
                 }
-
                 mergedFileWriter.write("\n");
-
                 reader.close();
             }
-
             mergedFileWriter.close();
 
             System.out.println("텍스트 파일들이 성공적으로 통합되어 통합파일.txt로 저장되었습니다.");
