@@ -15,10 +15,8 @@ public class MergeTextFilesLocalPath {
                     return name.toLowerCase().endsWith(".txt");
                 }
             });
-
             
             Arrays.sort(files);
-
             
             String mergedFileName = folderPath + "/통합파일.txt";
 
