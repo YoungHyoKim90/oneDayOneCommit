@@ -31,6 +31,7 @@ public class FileDetailsPrinter {
         }
     }
 
+    
     // 파일의 확장자를 반환하는 메서드
     private static String getFileExtension(String fileName) {
         int lastDotIndex = fileName.lastIndexOf(".");
