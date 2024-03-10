@@ -26,6 +26,7 @@ public class FileDetailsPrinter {
                 System.out.println();
             }
         } else {
+        	
             System.out.println("No files found in the specified directory.");
         }
     }
@@ -36,6 +37,7 @@ public class FileDetailsPrinter {
         if (lastDotIndex != -1 && lastDotIndex < fileName.length() - 1) {
             return fileName.substring(lastDotIndex + 1);
         }
+        
         return "";
     }
 }
