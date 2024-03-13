@@ -20,10 +20,12 @@ public class FolderManipulator {
                 }
 //
                 
+                
                 Scanner scanner = new Scanner(System.in);
                 System.out.println("Enter the number of the file or folder you want to interact with:");
                 int choice = scanner.nextInt();
 
+                
                 if (choice >= 1 && choice <= filesAndFolders.length) {
                     File selectedFileOrFolder = filesAndFolders[choice - 1];
                     System.out.println("Selected item: " + selectedFileOrFolder.getName());
