@@ -18,7 +18,8 @@ public class FolderManipulator {
                     System.out.println(count + ". " + fileOrFolder.getName());
                     count++;
                 }
-
+//
+                
                 Scanner scanner = new Scanner(System.in);
                 System.out.println("Enter the number of the file or folder you want to interact with:");
                 int choice = scanner.nextInt();
