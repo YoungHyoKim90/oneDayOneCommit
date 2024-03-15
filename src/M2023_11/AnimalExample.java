@@ -13,7 +13,6 @@ class Cat implements Animal {
  }
 }
 
-
 //구체적인 동물 클래스 - 강아지
 class Dog implements Animal {
  @Override
@@ -21,7 +20,6 @@ class Dog implements Animal {
      System.out.println("멍멍");
  }
 }
-
 
 public class AnimalExample {
  public static void main(String[] args) {
