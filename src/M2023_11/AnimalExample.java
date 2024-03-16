@@ -26,6 +26,7 @@ public class AnimalExample {
      Animal cat = new Cat();
      Animal dog = new Dog();
 
+     
      cat.makeSound(); // "야옹" 출력
      dog.makeSound(); // "멍멍" 출력
  }
