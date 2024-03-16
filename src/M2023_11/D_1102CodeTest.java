@@ -1,6 +1,7 @@
 package M2023_11;
 
 public class D_1102CodeTest {
+	
 /*
  * #include <stdio.h>
 #include <stdbool.h>
