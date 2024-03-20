@@ -17,6 +17,7 @@ public class LottoGenerator {
         System.out.print("추첨된 번호: ");
         for (int i = 0; i < 6; i++) {
             System.out.print(numbers.get(i) + " ");
+            
         }
     }
 }
