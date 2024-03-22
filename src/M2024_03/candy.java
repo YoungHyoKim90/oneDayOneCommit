@@ -1,7 +1,7 @@
 package M2024_03;
 import java.util.Scanner;
 
-public class Main {
+public class candy {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int T = scanner.nextInt(); // 테스트 케이스의 수
