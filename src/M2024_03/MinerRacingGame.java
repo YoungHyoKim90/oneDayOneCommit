@@ -44,9 +44,12 @@ public class MinerRacingGame {
 
             // 사용자가 선택한 광부의 위치 출력
             System.out.println("당신이 선택한 광부의 위치: " + miners[userChoice - 1]);
+            
             System.out.println("다음 라운드를 시작합니다. 엔터를 누르세요.");
+            
             scanner.nextLine(); // 엔터 대기
             scanner.nextLine(); // 다음 라운드로 넘어가기 위해 다시 엔터 대기
+            
             System.out.println();
         }
     }
