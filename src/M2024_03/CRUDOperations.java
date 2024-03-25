@@ -17,13 +17,11 @@ public class CRUDOperations {
             Class.forName(JDBC_DRIVER);
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
-            
             // 데이터 생성
             stmt = conn.createStatement();
             String sql = "INSERT INTO 테이블명 (column1, column2, ...) VALUES (value1, value2, ...)";
             stmt.executeUpdate(sql);
 
-            
             // 데이터 조회
             sql = "SELECT * FROM 테이블명";
             ResultSet rs = stmt.executeQuery(sql);
