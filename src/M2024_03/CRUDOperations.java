@@ -17,11 +17,13 @@ public class CRUDOperations {
             Class.forName(JDBC_DRIVER);
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
+            
             // 데이터 생성
             stmt = conn.createStatement();
             String sql = "INSERT INTO 테이블명 (column1, column2, ...) VALUES (value1, value2, ...)";
             stmt.executeUpdate(sql);
 
+            
             // 데이터 조회
             sql = "SELECT * FROM 테이블명";
             ResultSet rs = stmt.executeQuery(sql);
@@ -32,14 +34,17 @@ public class CRUDOperations {
                 // 필요한 작업 수행
             }
 
+            
             // 데이터 수정
             sql = "UPDATE 테이블명 SET column1 = value1, column2 = value2 WHERE 조건";
             stmt.executeUpdate(sql);
 
+            
             // 데이터 삭제
             sql = "DELETE FROM 테이블명 WHERE 조건";
             stmt.executeUpdate(sql);
 
+            
             // 자원 정리
             rs.close();
             stmt.close();
