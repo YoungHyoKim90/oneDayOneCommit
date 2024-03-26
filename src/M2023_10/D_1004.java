@@ -7,6 +7,7 @@ public class D_1004 {
  *  
  */
 	
+	
 	public static void main(String[] args) {
 		int cnt = 1;
 		while(true)	{
