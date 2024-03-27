@@ -86,3 +86,41 @@ public class OctalObserver extends Observer {
 }
 
 */
+
+/*
+public interface Shape {
+void draw();
+}
+
+public class Rectangle implements Shape {
+@Override
+public void draw() {
+    System.out.println("Inside Rectangle::draw() method.");
+}
+}
+
+public class Circle implements Shape {
+@Override
+public void draw() {
+    System.out.println("Inside Circle::draw() method.");
+}
+}
+
+public abstract class ShapeFactory {
+public abstract Shape createShape();
+}
+
+public class RectangleFactory extends ShapeFactory {
+@Override
+public Shape createShape() {
+    return new Rectangle();
+}
+}
+
+public class CircleFactory extends ShapeFactory {
+@Override
+public Shape createShape() {
+    return new Circle();
+}
+}
+*/
