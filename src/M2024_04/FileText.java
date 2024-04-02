@@ -1,6 +1,6 @@
 package M2024_04;
 
-public class 설명 {
+public class FileText {
 
 	public static void main(String[] args) {
 		
