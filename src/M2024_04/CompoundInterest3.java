@@ -38,6 +38,7 @@ public class CompoundInterest3 {
                 upperBound = annualInterestRate;
             }
 
+            
             annualInterestRate = (lowerBound + upperBound) / 2;
         }
 
