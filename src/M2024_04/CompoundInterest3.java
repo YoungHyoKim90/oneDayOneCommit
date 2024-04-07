@@ -44,8 +44,11 @@ public class CompoundInterest3 {
 
         // 결과 출력
         System.out.printf("목표 금액 %.2f 원을 달성하기 위한 수익률:\n", targetAmount);
+        
         System.out.printf("일일 수익률: %.2f%%\n", Math.pow(1 + annualInterestRate, 1.0 / 365) * 100 - 100);
+        
         System.out.printf("주간 수익률: %.2f%%\n", Math.pow(1 + annualInterestRate, 1.0 / 52) * 100 - 100);
+        
         System.out.printf("연간 수익률: %.2f%%\n", annualInterestRate * 100);
     }
 }
