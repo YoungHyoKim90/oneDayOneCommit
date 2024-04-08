@@ -21,6 +21,7 @@ public class D_1107CodingTestSolution {
 //        String c = String.format("%d + %d = %d", a, b, a+b);
         System.out.println(c);
         System.out.println(String.format("%d + %d = %d", a, b, a+b));
+        sc.close();
 	}
 
 }
