@@ -5,11 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 public class DiamondOperatorExample {
     public static void main(String[] args) {
         // Java 7 이전에는 제네릭 타입을 다음과 같이 명시해야 했습니다.
