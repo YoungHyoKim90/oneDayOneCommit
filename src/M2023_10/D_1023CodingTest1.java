@@ -23,6 +23,7 @@ public class D_1023CodingTest1 {
 			System.out.println("숫자를 입력해 주세요.");
 			
 		}
+		sc.close();
 	}
 	
 }
