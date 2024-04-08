@@ -27,6 +27,8 @@ public class BMI_Calculator {
         System.out.println("정상: 18.5 이상 24.9 이하");
         System.out.println("과체중: 25 이상 29.9 이하");
         System.out.println("비만: 30 이상");
+        
+        scanner.close();
     }
 
     // BMI를 계산하는 메서드
