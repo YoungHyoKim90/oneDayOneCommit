@@ -100,6 +100,7 @@ class MinimumSpanningTree_Kruskal {
 				disjoint_set[i] = i;
 			}
 
+			
 			for (int i = 0; i < E; i++) {
 				int x = scanner.nextInt();
 				int y = scanner.nextInt();
