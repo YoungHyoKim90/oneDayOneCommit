@@ -4,7 +4,8 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 /*
- * 입력으로 테스트 케이스 수, 그리고 각 테스트 케이스별로 정점 수와 간선 수를 받아들입니다. 그리고 각 간선의 정보를 받아 최소 신장 트리(Minimum Spanning Tree)의 총 가중치를 계산하고 출력합니다. Kruskal 알고리즘을 사용하여 최소 신장 트리를 구성합니다.
+ * 입력으로 테스트 케이스 수, 그리고 각 테스트 케이스별로 정점 수와 간선 수를 받아들입니다. 그리고 각 간선의 정보를 받아 
+ * 최소 신장 트리(Minimum Spanning Tree)의 총 가중치를 계산하고 출력합니다. Kruskal 알고리즘을 사용하여 최소 신장 트리를 구성합니다.
  */
 class MinimumSpanningTree_Kruskal {
 
