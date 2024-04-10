@@ -40,6 +40,7 @@ public class CBTQuestionGenerator {
             System.out.println("Correct answer!");
         } else {
             System.out.println("Incorrect answer. The correct answer is: " + correctAnswer);
+            scanner.close();
         }
     }
 }
