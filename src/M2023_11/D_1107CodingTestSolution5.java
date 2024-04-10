@@ -31,6 +31,7 @@ public class D_1107CodingTestSolution5 {
         	}
         }else {
         	System.out.println("값을 잘못 입력하였습니다.");
+        	sc.close();
         }
     }
 }
