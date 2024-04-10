@@ -11,6 +11,8 @@ public class D_1107CodingTestSolution2 {
         String b = sc.next();
         String result = a+b;
         System.out.println(result);
+        
+        sc.close();
     }
 }
 
