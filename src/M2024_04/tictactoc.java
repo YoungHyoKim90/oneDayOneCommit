@@ -91,6 +91,7 @@ public class tictactoc {
 			}
 			System.out.println(index);
 			turn++;
+			scan.close();
 		}
 	}
 }
