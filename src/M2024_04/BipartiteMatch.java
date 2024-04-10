@@ -92,6 +92,8 @@ public class BipartiteMatch {
             // 결과 출력
             System.out.printf("#%d %d\n", test_case, bipartiteMatch());
             System.out.println("Clear Graph");
+            
+            scanner.close();
         }
     }
 }
