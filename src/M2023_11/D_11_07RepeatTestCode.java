@@ -16,6 +16,7 @@ public class D_11_07RepeatTestCode {
 		for(int i = 0 ; i < num ; i++) {
 			System.out.println("for문을 통한 반복 실행" + (i+1) + "번째");
 			System.out.println(str);
+			sc.close();
 		}
 //	System.out.println(str.repeat(num)); 자바 11버전부터 사용이 가능... 까비	
 	}
