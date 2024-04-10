@@ -79,6 +79,7 @@ public class BipartiteMatch2 {
             // 결과 출력
             System.out.printf("#%d %d\n", test_case, bipartiteMatch());
             System.out.println("Clear Graph"); // "Clear Graph" 출력하여 현재 테스트 케이스의 그래프 종료를 나타냄
+            scanner.close();
         }
     }
 }
