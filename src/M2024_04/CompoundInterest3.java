@@ -47,6 +47,7 @@ public class CompoundInterest3 {
         System.out.printf("일일 수익률: %.2f%%\n", Math.pow(1 + annualInterestRate, 1.0 / 365) * 100 - 100);
         System.out.printf("주간 수익률: %.2f%%\n", Math.pow(1 + annualInterestRate, 1.0 / 52) * 100 - 100);
         System.out.printf("연간 수익률: %.2f%%\n", annualInterestRate * 100);
+        scanner.close();
     }
 }
 
