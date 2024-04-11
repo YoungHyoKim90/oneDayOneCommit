@@ -1,7 +1,6 @@
 package M2024_02;
 
 import java.io.File;
-import java.util.Objects;
 
 public class FileExtensionConverter {
 	public static void main(String[] args) {
