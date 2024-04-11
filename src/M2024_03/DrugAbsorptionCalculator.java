@@ -23,6 +23,7 @@ public class DrugAbsorptionCalculator {
 
 		// 결과 출력
 		System.out.println("약물이 흡수되는 데 걸리는 시간: " + completionTime + "시간");
+		scanner.close();
 	}
 
 	// 약물의 흡수가 완료되는 시간을 계산하는 메서드
