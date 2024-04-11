@@ -1,7 +1,5 @@
 package M2023_9;
 
-import java.util.Scanner;
-
 public class D092702 {
 
 	void plusPlus() {
