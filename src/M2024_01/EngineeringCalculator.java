@@ -57,6 +57,7 @@ public class EngineeringCalculator {
         double num2 = scanner.nextDouble();
         double result = num1 + num2;
         System.out.println("덧셈 결과: " + result);
+        scanner.close();
     }
 
     private static void performSubtraction() {
@@ -67,6 +68,7 @@ public class EngineeringCalculator {
         double num2 = scanner.nextDouble();
         double result = num1 - num2;
         System.out.println("뺄셈 결과: " + result);
+        scanner.close();
     }
 
     private static void performMultiplication() {
@@ -77,6 +79,7 @@ public class EngineeringCalculator {
         double num2 = scanner.nextDouble();
         double result = num1 * num2;
         System.out.println("곱셈 결과: " + result);
+        scanner.close();
     }
 
     private static void performDivision() {
@@ -92,6 +95,7 @@ public class EngineeringCalculator {
         } else {
             System.out.println("0으로 나눌 수 없습니다.");
         }
+        scanner.close();
     }
 
     private static void performExponentiation() {
@@ -102,6 +106,7 @@ public class EngineeringCalculator {
         double exponent = scanner.nextDouble();
         double result = Math.pow(base, exponent);
         System.out.println("거듭제곱 결과: " + result);
+        scanner.close();
     }
 
     private static void performSquareRoot() {
@@ -115,6 +120,7 @@ public class EngineeringCalculator {
         } else {
             System.out.println("음수의 제곱근은 실수 범위에서 정의되지 않습니다.");
         }
+        scanner.close();
     }
 }
 
