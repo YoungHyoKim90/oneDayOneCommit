@@ -34,6 +34,7 @@ public class EconomicIndexCalculator {
                                 (unemploymentWeight + consumerConfidenceWeight + businessCycleIndexWeight);
 
         System.out.println("경제 예상 지수: " + economicIndex);
+        scanner.close();
     }
 }
 
