@@ -45,6 +45,7 @@ public class EngineeringCalculator {
                 default:
                     System.out.println("잘못된 선택입니다. 다시 선택하세요.");
             }
+            scanner.close();
         }
     }
 
