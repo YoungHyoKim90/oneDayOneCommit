@@ -58,7 +58,7 @@ public class DynamicQueryExample {
 
             // 데이터베이스 연결 닫기
             conn.close();
-
+            scanner.close();
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
@@ -81,6 +81,7 @@ public class DynamicQueryExample {
             while (rs.next()) {
                 // 결과 처리 예시
                 System.out.println("ID: " + rs.getInt("id") + ", Name: " + rs.getString("name"));
+
             }
         }
     }
