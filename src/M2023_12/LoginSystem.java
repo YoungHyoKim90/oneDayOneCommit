@@ -27,6 +27,7 @@ public class LoginSystem {
         } else {
             System.out.println("로그인 실패. 사용자 이름 또는 비밀번호를 확인하세요.");
         }
+        scanner.close();
     }
 
     private static boolean isAuthenticated(String username, String password) {
