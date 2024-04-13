@@ -18,6 +18,7 @@ public class InterestCalculator {
 
         // 결과 출력
         System.out.println("입력한 이자율로 원금이 두 배가 되는 데 걸리는 시간: " + yearsToDouble + "년");
+        scanner.close();
     }
 
     // 두 배가 되는 시간을 계산하는 메서드
