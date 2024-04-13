@@ -51,6 +51,7 @@ public class MinerRacingGame {
             scanner.nextLine(); // 다음 라운드로 넘어가기 위해 다시 엔터 대기
             
             System.out.println();
+            scanner.close();
         }
     }
 }
