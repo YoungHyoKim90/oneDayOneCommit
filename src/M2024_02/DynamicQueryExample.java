@@ -76,6 +76,7 @@ public class DynamicQueryExample {
                 String value2 = scanner.next();
                 stmt.setString(1, value1);
                 stmt.setString(2, value2);
+                scanner.close();
             }
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
