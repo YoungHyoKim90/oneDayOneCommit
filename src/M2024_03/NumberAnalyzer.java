@@ -33,6 +33,7 @@ public class NumberAnalyzer {
 
         // 결과 출력
         System.out.println("입력된 숫자들의 평균: " + average);
+        scanner.close();
     }
 }
 
