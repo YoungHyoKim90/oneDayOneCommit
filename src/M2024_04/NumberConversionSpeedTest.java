@@ -1,5 +1,9 @@
 package M2024_04;
 
+/**
+ * @author PigYoung90
+ *
+ */
 public class NumberConversionSpeedTest {
 
     public static void main(String[] args) {
