@@ -7,7 +7,7 @@ package M2024_04;
 public class NumberConversionSpeedTest {
 
     public static void main(String[] args) {
-        final int MAX_NUM = 1_000_000;
+        final int MAX_NUM = 100_000_000;
 
         long startTime, endTime;
         double duration;
@@ -18,7 +18,7 @@ public class NumberConversionSpeedTest {
             Integer.toBinaryString(i);
         }
         endTime = System.nanoTime();
-        duration = (endTime - startTime) / 1_000_000.0;  // ns to ms
+        duration = (endTime - startTime) / 100_000_000.0;  // ns to ms
         System.out.println("10진수 -> 2진수 변환 시간: " + duration + "ms");
 
         // 10진수 -> 16진수 변환 속도 테스트
@@ -27,7 +27,7 @@ public class NumberConversionSpeedTest {
             Integer.toHexString(i);
         }
         endTime = System.nanoTime();
-        duration = (endTime - startTime) / 1_000_000.0;  // ns to ms
+        duration = (endTime - startTime) / 100_000_000.0;  // ns to ms
         System.out.println("10진수 -> 16진수 변환 시간: " + duration + "ms");
     }
 }
