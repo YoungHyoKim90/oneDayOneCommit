@@ -7,7 +7,7 @@ package M2024_04;
 public class NumberConversionSpeedTest {
 
 	public static void main(String[] args) {
-		final int MAX_NUM = 1_000_000_000;
+		final int MAX_NUM = 100_000_000;
 
 		long startTime, endTime;
 		double duration;
@@ -18,7 +18,7 @@ public class NumberConversionSpeedTest {
 			Integer.toBinaryString(i);
 		}
 		endTime = System.nanoTime();
-		duration = (endTime - startTime) / 1_000_000_000.0; // ns to ms
+		duration = (endTime - startTime) / 100_000_000.0; // ns to ms
 		System.out.println("10진수 -> 2진수 변환 시간: " + duration + "ms");
 
 		// 10진수 -> 16진수 변환 속도 테스트
@@ -27,14 +27,15 @@ public class NumberConversionSpeedTest {
 			Integer.toHexString(i);
 		}
 		endTime = System.nanoTime();
-		duration = (endTime - startTime) / 1_000_000_000.0; // ns to ms
+		duration = (endTime - startTime) / 100_000_000.0; // ns to ms
 		System.out.println("10진수 -> 16진수 변환 시간: " + duration + "ms");
 	}
 }
 
-/*
+/*1_000_000_000.0
  * 10진수 -> 2진수 변환 시간: 12.890821ms
-	10진수 -> 16진수 변환 시간: 5.9342585ms
+ * 10진수 -> 16진수 변환 시간: 5.9342585ms
+ *	
  * 결과를 보면, 10진수 -> 2진수 변환이 10진수 -> 16진수 변환보다 약 2배 더 오래 걸렸습니다.
  * 
  * 이러한 결과는 일반적으로 예상하기 어렵습니다. 일반적으로 2진수와 16진수 변환은 비슷한 연산량을 가집니다. 그러나 여기서 나타난 결과는
