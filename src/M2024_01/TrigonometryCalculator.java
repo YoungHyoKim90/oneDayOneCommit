@@ -67,6 +67,7 @@ public class TrigonometryCalculator {
         System.out.println("탄젠트(" + degree + "도) 값: " + tangentValue);
         System.out.println("라디안 값: " + radian);
         System.out.println("역탄젠트 값: " + Math.atan(tangentValue) + " 라디안");
+        scanner.close();
     }
 }
 
