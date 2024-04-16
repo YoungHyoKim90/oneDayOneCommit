@@ -45,6 +45,7 @@ public class TrigonometryCalculator {
         System.out.println("싸인(" + degree + "도) 값: " + sineValue);
         System.out.println("라디안 값: " + radian);
         System.out.println("역싸인 값: " + Math.asin(sineValue) + " 라디안");
+        scanner.close();
     }
 
     private static void calculateCosine() {
