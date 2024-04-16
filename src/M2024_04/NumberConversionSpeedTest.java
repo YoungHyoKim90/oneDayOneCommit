@@ -11,6 +11,7 @@ public class NumberConversionSpeedTest {
 
 		long startTime, endTime;
 		double duration;
+		double duration_2;
 		System.out.println("연산을 시작합니다.");
 		// 10진수 -> 2진수 변환 속도 테스트
 		startTime = System.nanoTime();
@@ -27,8 +28,8 @@ public class NumberConversionSpeedTest {
 			Integer.toHexString(i);
 		}
 		endTime = System.nanoTime();
-		duration = (endTime - startTime) / 100_000_000.0; // ns to ms
-		System.out.println("10진수 -> 16진수 변환 시간: " + duration + "ms");
+		duration_2 = (endTime - startTime) / 100_000_000.0; // ns to ms
+		System.out.println("10진수 -> 16진수 변환 시간: " + duration_2 + "ms");
 	}
 }
 
