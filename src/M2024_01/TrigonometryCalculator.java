@@ -56,6 +56,7 @@ public class TrigonometryCalculator {
         System.out.println("코사인(" + degree + "도) 값: " + cosineValue);
         System.out.println("라디안 값: " + radian);
         System.out.println("역코사인 값: " + Math.acos(cosineValue) + " 라디안");
+        scanner.close();
     }
 
     private static void calculateTangent() {
