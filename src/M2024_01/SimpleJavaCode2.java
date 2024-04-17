@@ -20,6 +20,7 @@ public class SimpleJavaCode2 {
             scanner.close();
         } else {
             System.out.println("Login failed. Please check your credentials.");
+            scanner.close();
         }
     }
 
