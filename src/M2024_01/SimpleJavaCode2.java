@@ -17,6 +17,7 @@ public class SimpleJavaCode2 {
             System.out.println("Login successful!");
             String randomString = generateRandomString();
             System.out.println("Generated random string: " + randomString);
+            scanner.close();
         } else {
             System.out.println("Login failed. Please check your credentials.");
         }
