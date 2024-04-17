@@ -15,6 +15,7 @@ public class SimpleJavaCode {
 
         int product = multiplyNumbers(num1, num2);
         System.out.println("Product: " + product);
+        scanner.close();
     }
 
     public static int addNumbers(int a, int b) {
