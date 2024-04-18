@@ -22,5 +22,6 @@ public class D092702 {
 		int a = 10;
 		int b = 12;
 		System.out.println("a = " + a);
+		System.out.println("b = " + b);
 	}
 }
