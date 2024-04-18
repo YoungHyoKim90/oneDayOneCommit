@@ -21,6 +21,6 @@ public class D092702 {
 		res.plusPlus();
 		int a = 10;
 		int b = 12;
-		
+		System.out.println("a = " + a);
 	}
 }
