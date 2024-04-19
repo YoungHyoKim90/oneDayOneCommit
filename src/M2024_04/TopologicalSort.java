@@ -63,6 +63,7 @@ public class TopologicalSort {
             }
 
             System.out.println();
+            scanner.close();
         }
     }
 }
