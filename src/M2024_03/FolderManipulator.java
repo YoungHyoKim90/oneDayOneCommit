@@ -38,6 +38,7 @@ public class FolderManipulator {
                     if (actionChoice == 1) {
                         if (selectedFileOrFolder.delete()) {
                             System.out.println("File or folder deleted successfully.");
+                            scanner.close();
                         } else {
                             System.out.println("Failed to delete file or folder.");
                         }
