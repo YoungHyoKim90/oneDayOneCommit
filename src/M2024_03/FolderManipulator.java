@@ -41,6 +41,7 @@ public class FolderManipulator {
                             scanner.close();
                         } else {
                             System.out.println("Failed to delete file or folder.");
+                            scanner.close();
                         }
                     } else if (actionChoice == 2) {
                         // TODO: Implement read content functionality for files
