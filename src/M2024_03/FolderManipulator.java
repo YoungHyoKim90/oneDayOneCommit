@@ -46,8 +46,10 @@ public class FolderManipulator {
                     } else if (actionChoice == 2) {
                         // TODO: Implement read content functionality for files
                         System.out.println("Read content functionality will be implemented soon.");
+                        scanner.close();
                     } else {
                         System.out.println("Invalid choice.");
+                        scanner.close();
                     }
                 } else {
                     System.out.println("Invalid choice. Please enter a number between 1 and " + filesAndFolders.length);
