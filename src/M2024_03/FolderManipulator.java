@@ -51,6 +51,7 @@ public class FolderManipulator {
 					}
 				} else {
 					System.out.println("Invalid choice. Please enter a number between 1 and " + filesAndFolders.length);
+					scanner.close();
 				}
 			} else {
 				System.out.println("Folder is empty.");
