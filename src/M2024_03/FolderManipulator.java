@@ -150,3 +150,59 @@ public class FolderManipulator {
  * helpdiagnose errors when an operation on a file fails.
  * Since:JDK1.0Author:unascribed
  */
+
+/*
+ * 
+ * java.lang.String
+ * 
+ * 
+ * The String class represents character strings. Allstring literals in Java
+ * programs, such as "abc", areimplemented as instances of this class.
+ * 
+ * Strings are constant; their values cannot be changed after theyare created.
+ * String buffers support mutable strings.Because String objects are immutable
+ * they can be shared. For example:
+ * 
+ * String str = "abc";
+ * 
+ * 
+ * is equivalent to:
+ * 
+ * char data[] = {'a', 'b', 'c'}; String str = new String(data);
+ * 
+ * 
+ * Here are some more examples of how strings can be used:
+ * 
+ * System.out.println("abc"); String cde = "cde"; System.out.println("abc" +
+ * cde); String c = "abc".substring(2,3); String d = cde.substring(1, 2);
+ * 
+ * 
+ * The class String includes methods for examiningindividual characters of the
+ * sequence, for comparing strings, forsearching strings, for extracting
+ * substrings, and for creating acopy of a string with all characters translated
+ * to uppercase or tolowercase. Case mapping is based on the Unicode Standard
+ * versionspecified by the Character class.
+ * 
+ * The Java language provides special support for the stringconcatenation
+ * operator ( + ), and for conversion ofother objects to strings. String
+ * concatenation is implementedthrough the StringBuilder(or StringBuffer)class
+ * and its append method.String conversions are implemented through the method
+ * toString, defined by Object andinherited by all classes in Java. For
+ * additional information onstring concatenation and conversion, see Gosling,
+ * Joy, and Steele, The Java Language Specification.
+ * 
+ * Unless otherwise noted, passing a null argument to a constructoror method in
+ * this class will cause a NullPointerException to bethrown.
+ * 
+ * A String represents a string in the UTF-16 formatin which supplementary
+ * characters are represented by surrogatepairs (see the section
+ * UnicodeCharacter Representations in the Character class formore
+ * information).Index values refer to char code units, so a
+ * supplementarycharacter uses two positions in a String.
+ * 
+ * The String class provides methods for dealing withUnicode code points (i.e.,
+ * characters), in addition to those fordealing with Unicode code units (i.e.,
+ * char values). Since:JDK1.0Author:Lee BoyntonArthur van HoffMartin BuchholzUlf
+ * ZibisSee Also:java.lang.Object.toString()java.lang.StringBufferjava.lang.
+ * StringBuilderjava.nio.charset.Charset
+ */
