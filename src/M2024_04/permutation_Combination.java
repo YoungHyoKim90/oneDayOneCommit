@@ -2,6 +2,12 @@ package M2024_04;
 
 import java.util.Scanner;
 
+
+/**
+ * @author PigYoung90
+ * 주석 permutation_Combination의 주석이다.
+ * Alt + Shift + J 를 통해 해당 클래스의 주석을 달 수 있다. 개꿀... 
+ */
 public class permutation_Combination {
 
     // 최대 문자열 길이
