@@ -6,12 +6,10 @@ import java.util.concurrent.Future;
 
 public class AsyncExample {
 
-	
 	public static void main(String[] args) {
 		// ExecutorService 생성
 		ExecutorService executor = Executors.newSingleThreadExecutor();
 
-		
 		// Callable 객체 생성 및 비동기 실행
 		Future<String> future = executor.submit(() -> {
 			try {
@@ -23,7 +21,6 @@ public class AsyncExample {
 			return "Async data from server!";
 		});
 
-		
 		// 작업이 완료될 때까지 대기
 		while (!future.isDone()) {
 			try {
