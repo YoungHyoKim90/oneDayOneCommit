@@ -16,6 +16,7 @@ public class UnitConverter {
             int choice = scanner.nextInt();
 
             switch (choice) {
+            
                 case 1:
                     convertCmToInch();
                     break;
