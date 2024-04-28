@@ -38,6 +38,7 @@ public class UnitConverter {
         double cmValue = scanner.nextDouble();
         double inchValue = cmToInch(cmValue);
         System.out.println(cmValue + " 센티미터는 " + inchValue + " 인치입니다.");
+        scanner.close();
     }
 
     private static void convertInchToCm() {
