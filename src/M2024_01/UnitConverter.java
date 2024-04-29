@@ -20,13 +20,16 @@ public class UnitConverter {
                 case 1:
                     convertCmToInch();
                     break;
+                    
                 case 2:
                     convertInchToCm();
                     break;
+                    
                 case 0:
                     System.out.println("프로그램을 종료합니다.");
                     scanner.close();
                     System.exit(0);
+                    
                 default:
                     System.out.println("잘못된 선택입니다. 다시 선택하세요.");
             }
