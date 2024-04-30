@@ -19,6 +19,7 @@ public class MinerRacingGame {
 		int userChoice = scanner.nextInt();
 		if (userChoice < 1 || userChoice > 5) {
 			System.out.println("잘못된 선택입니다. 1부터 5까지의 숫자 중 하나를 선택하세요.");
+			scanner.close();
 			return;
 		}
 
