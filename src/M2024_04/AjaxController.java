@@ -22,6 +22,7 @@ import egovframework.lab.com.vo.Department;
 @Controller
 public class AjaxController {
 	
+	
 	@Autowired
 	@Qualifier("employeeService")
 	private EmployeeService employeeService;
