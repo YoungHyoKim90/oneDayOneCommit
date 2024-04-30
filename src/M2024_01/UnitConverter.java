@@ -50,7 +50,8 @@ public class UnitConverter {
         System.out.print("인치(inch) 값을 입력하세요: ");
         double inchValue = scanner.nextDouble();
         double cmValue = inchToCm(inchValue);
-        System.out.println(inchValue + " 인치는 " + cmValue + " 센티미터입니다.");
+        System.out.println(inchValue + " 인치는 " + cmValue + " 센티미터입니다.");        
+        scanner.close();
     }
 
     private static double cmToInch(double cmValue) {
