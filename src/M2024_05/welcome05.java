@@ -4,6 +4,8 @@ public class welcome05 {
 	
 	public static void main(String[] args) {
 		System.out.println("벌써5월이야!");
+		Thread.activeCount();
+		System.out.println("벌써5월이야!");
 	}
 
 }
