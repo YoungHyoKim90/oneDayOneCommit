@@ -6,6 +6,11 @@ public class welcome05 {
 		System.out.println("벌써5월이야!");
 		Thread.activeCount();
 		System.out.println("벌써5월이야!");
+		boolean condition = false;
+		if (condition) {
+			
+			
+		}
 	}
 
 }
