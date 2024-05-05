@@ -12,6 +12,10 @@ public class welcome05 {
 			System.arraycopy(args, 0, args2, 0, args.length());
 			args2[args.length()] = args;
 			
+			do {
+				
+			} while (condition);
+			
 		}
 	}
 
