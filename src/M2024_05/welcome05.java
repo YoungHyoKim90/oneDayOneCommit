@@ -13,7 +13,11 @@ public class welcome05 {
 			args2[args.length()] = args;
 			
 			do {
-				
+				new Runnable() {
+					public void run() {
+						
+					}
+				};
 			} while (condition);
 			
 		}
