@@ -24,6 +24,7 @@ class MinimumSpanningTree_Kruskal {
 		}
 	}
 
+	
 	static final int MAXV = 100005;
 	static final int MAXE = 500005;
 
