@@ -35,8 +35,23 @@ public class welcome05 {
 }
 /*
  *
- * void java.io.PrintStream.println(String x)
- * Prints a String and then terminate the line. This method behaves asthough it
- * invokes print(String) and then println(). Parameters:x The String to be
- * printed.
+ * void java.io.PrintStream.println(String x) Prints a String and then terminate
+ * the line. This method behaves asthough it invokes print(String) and then
+ * println(). Parameters:x The String to be printed.
+ * 
+ * 
+ * PrintStream java.lang.System.out The "standard" output stream. This stream is
+ * alreadyopen and ready to accept output data. Typically this streamcorresponds
+ * to display output or another output destinationspecified by the host
+ * environment or user. For simple stand-alone Java applications, a typical way
+ * to writea line of output data is: System.out.println(data) See the println
+ * methods in class PrintStream. See
+ * Also:java.io.PrintStream.println()java.io.PrintStream.println(boolean)java.io
+ * .PrintStream.println(char)java.io.PrintStream.println(char
+ * [])java.io.PrintStream.println(double)java.io.PrintStream.println(float)java.
+ * io.PrintStream.println(int)java.io.PrintStream.println(long)java.io.
+ * PrintStream.println(java.lang.Object)java.io.PrintStream.println(java.lang.
+ * String)
+ * 
+ * 
  */
