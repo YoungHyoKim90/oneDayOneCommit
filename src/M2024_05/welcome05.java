@@ -26,10 +26,17 @@ public class welcome05 {
 
 					}
 				};
-				
+
 			} while (condition);
 
 		}
 	}
 
 }
+/*
+ *
+ * void java.io.PrintStream.println(String x)
+ * Prints a String and then terminate the line. This method behaves asthough it
+ * invokes print(String) and then println(). Parameters:x The String to be
+ * printed.
+ */
