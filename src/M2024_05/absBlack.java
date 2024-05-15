@@ -1,5 +1,7 @@
 package M2024_05;
 
+import java.io.StringBufferInputStream;
+
 public class absBlack {
 
 	
@@ -12,6 +14,8 @@ public class absBlack {
 		System.out.println("hi : " + hi.class.getModifiers());
 		
 		System.out.println("what" + absBlack.hi.class);
+		
+		System.out.println("what2" +  StringBufferInputStream.class);
 		
 	}
 	
