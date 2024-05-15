@@ -11,7 +11,7 @@ public class absBlack {
 		
 		System.out.println("hi : " + hi.class.getModifiers());
 		
-		
+		System.out.println("what" + absBlack.hi.class);
 		
 	}
 	
