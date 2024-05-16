@@ -10,7 +10,7 @@ public class absBlack {
 		int b = 2;
 		
 		System.out.println("a+b : " + a+b);
-		
+		//a+b : 12
 		System.out.println("hi : " + hi.class.getModifiers());
 		
 		System.out.println("what" + absBlack.hi.class);
