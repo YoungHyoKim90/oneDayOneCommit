@@ -1,7 +1,10 @@
 package M2024_05;
 
 public class methodStudy {
+private void syso() {
+	// TODO Auto-generated method stub
 
+}
 }
 
 /*
