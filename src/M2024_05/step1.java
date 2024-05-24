@@ -26,6 +26,7 @@ def monitor_usb():
         None
     )
 
+
     while True:
         results = win32file.ReadDirectoryChangesW(
             hDir,
