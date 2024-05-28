@@ -53,4 +53,22 @@ public class step2 {
  * Project 선택 Language: Java 선택 Spring Boot: 최신 버전 선택 Project Metadata: Group,
  * Artifact, Name, Description 등을 입력 Dependencies: 필요한 의존성을 추가합니다. 예를 들어, 웹
  * 애플리케이션을 만들려면 'Spring Web'을 추가합니다. Generate: 프로젝트를 생성하고 다운로드합니다.
+ * 2. 프로젝트 구조
+프로젝트를 다운로드하고 압축을 풀면 기본적인 디렉토리 구조는 다음과 같습니다.
+
+css
+코드 복사
+my-spring-boot-app
+ ├── src
+ │   ├── main
+ │   │   ├── java
+ │   │   │   └── com.example.myspringbootapp
+ │   │   │       └── MySpringBootAppApplication.java
+ │   │   ├── resources
+ │   │       ├── application.properties
+ │   ├── test
+ │       ├── java
+ │           └── com.example.myspringbootapp
+ │               └── MySpringBootAppApplicationTests.java
+ ├── build.gradle (또는 pom.xml)
  */
