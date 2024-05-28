@@ -42,3 +42,15 @@ public class step2 {
 	 * 
 	 */
 }
+
+/*
+ * 스프링 프레임워크의 사용법을 단계별로 설명하겠습니다. 여기서는 간단한 스프링 부트 애플리케이션을 만드는 과정을 다루겠습니다. 스프링 부트는
+ * 설정을 간소화하고, 독립 실행형 애플리케이션을 쉽게 만들 수 있도록 도와줍니다.
+ * 
+ * 1. 프로젝트 생성 스프링 부트 프로젝트를 생성하는 가장 쉬운 방법은 스프링 이니셜라이저를 사용하는 것입니다.
+ * 
+ * 스프링 이니셜라이저에 접속: start.spring.io 프로젝트 설정: Project: Gradle Project 또는 Maven
+ * Project 선택 Language: Java 선택 Spring Boot: 최신 버전 선택 Project Metadata: Group,
+ * Artifact, Name, Description 등을 입력 Dependencies: 필요한 의존성을 추가합니다. 예를 들어, 웹
+ * 애플리케이션을 만들려면 'Spring Web'을 추가합니다. Generate: 프로젝트를 생성하고 다운로드합니다.
+ */
