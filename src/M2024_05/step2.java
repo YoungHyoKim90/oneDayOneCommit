@@ -26,6 +26,9 @@ public class step2 {
 	 * 가능한 애플리케이션을 만들 수 있도록 도와주는 도구입니다. 스프링 부트는 자동 설정 기능을 통해 설정을 간소화하고, 내장된
 	 * 서버(Tomcat, Jetty 등)를 통해 애플리케이션을 쉽게 실행할 수 있게 합니다.
 	 * 
+	 * 
+	 * 
+	 * 
 	 * 6. RESTful 웹 서비스 스프링은 RESTful 웹 서비스 개발을 위한 다양한 기능을
 	 * 제공합니다. @RestController, @RequestMapping 등과 같은 애노테이션을 사용하여 REST API를 쉽게 구현할 수
 	 * 있습니다.
