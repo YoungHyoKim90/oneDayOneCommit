@@ -46,6 +46,7 @@ package M2024_06;
 	    private static void calculateSinAndCos(double tan) {
 	        double sin = Math.sin(tan);
 	        double cos = Math.cos(tan);
+            System.out.print("탄젠트 값 계산 결과입니다. ");
 	        System.out.printf("사인: %.4f, 코사인: %.4f, 탄젠트: %.4f%n", sin, cos, tan);
 	    }
 	}
