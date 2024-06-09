@@ -49,6 +49,7 @@ public class AESCrypt {
         return Base64.getEncoder().encodeToString(encryptedBytes);
     }
 
+    
     public static String decrypt(String encryptedData, SecretKey key) throws Exception {
         Cipher cipher = Cipher.getInstance(ALGORITHM);
         cipher.init(Cipher.DECRYPT_MODE, key);
