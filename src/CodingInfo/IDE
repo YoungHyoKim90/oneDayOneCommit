@@ -1,0 +1,108 @@
+
+Java에서 웹 서비스를 만들 때 자주 사용되는 빌드 및 의존성 관리 도구로는 Maven 외에도 Gradle, Ant 등이 있습니다.
+ 각 도구는 고유의 장단점과 특성을 가지고 있으며, 프로젝트의 요구사항에 따라 선택할 수 있습니다.
+
+1. Maven
+Maven이란?
+Apache Maven은 프로젝트 관리 및 이해를 도와주는 소프트웨어 프로젝트 관리 및 빌드 도구입니다.
+주로 Java 프로젝트에서 사용되며, 프로젝트의 라이프사이클 관리를 제공합니다.
+특징:
+의존성 관리: 프로젝트에서 사용되는 라이브러리와 플러그인을 쉽게 관리할 수 있습니다.
+빌드 자동화: 빌드, 테스트, 배포 등 프로젝트의 라이프사이클을 자동으로 처리합니다.
+표준화된 구조: Maven 프로젝트는 표준 디렉토리 구조와 설정 파일(pom.xml)을 사용합니다.
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>myapp</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.5.4</version>
+        </dependency>
+    </dependencies>
+</project>
+
+
+2. Gradle
+Gradle이란?
+Gradle은 유연하고 강력한 빌드 자동화 시스템으로, Java, Groovy, Kotlin 등 다양한 언어를 지원합니다.
+Groovy 또는 Kotlin DSL(Domain-Specific Language)을 사용하여 빌드 스크립트를 작성합니다.
+특징:
+유연성: Groovy와 Kotlin 스크립트를 사용하여 복잡한 빌드 로직을 쉽게 작성할 수 있습니다.
+성능: 증분 빌드와 캐싱을 통해 빌드 속도가 빠릅니다.
+의존성 관리: Maven과 유사하게 의존성을 관리할 수 있으며, 중앙 저장소와 로컬 저장소를 모두 지원합니다.
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.5.4'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.4'
+}
+
+application {
+    mainClassName = 'com.example.myapp.Application'
+}
+
+
+. Ant
+Ant란?
+Apache Ant는 Java 기반의 빌드 도구로, XML 빌드 스크립트를 사용하여 프로젝트 빌드를 자동화합니다.
+Maven과 Gradle에 비해 덜 사용되지만, 여전히 간단한 빌드 작업이나 특정 요구사항에 따라 유용할 수 있습니다.
+특징:
+유연성: 사용자 정의 태스크를 사용하여 복잡한 빌드 작업을 수행할 수 있습니다.
+XML 빌드 파일: XML 형식의 빌드 파일(build.xml)을 사용하여 빌드 작업을 정의합니다.
+확장성: 사용자 정의 태스크를 만들어 Ant의 기능을 확장할 수 있습니다.
+
+
+<project name="MyApp" default="compile" basedir=".">
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="build"/>
+
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac srcdir="${src.dir}" destdir="${build.dir}"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+</project>
+
+
+도구 비교
+Maven:
+
+장점: 표준화된 디렉토리 구조, 의존성 관리 용이, 광범위한 플러그인 지원.
+단점: 유연성 부족, 복잡한 빌드 로직 구현 시 제한적.
+Gradle:
+
+장점: 높은 유연성, 빠른 빌드 속도, Groovy/Kotlin을 사용한 빌드 스크립트.
+단점: 복잡한 설정 및 초기 학습 곡선.
+Ant:
+
+장점: 사용자 정의 빌드 태스크, 유연한 빌드 프로세스.
+단점: 의존성 관리 미비, XML 기반의 복잡한 빌드 스크립트.
+결론
+Java에서 웹 서비스를 개발할 때 Maven, Gradle, Ant 중 프로젝트의 요구사항에 맞는 빌드 도구를 선택할 수 있습니다.
+ Maven은 표준화된 프로젝트 구조와 간단한 의존성 관리가 필요한 경우에 적합하며, 
+ Gradle은 복잡한 빌드 로직과 빠른 빌드 속도가 필요한 경우에 적합합니다. 
+ Ant는 특정 요구사항에 따라 사용자 정의 빌드가 필요한 경우에 사용할 수 있습니다.
+
