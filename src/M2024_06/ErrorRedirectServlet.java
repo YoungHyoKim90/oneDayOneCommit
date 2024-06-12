@@ -1,5 +1,5 @@
 package M2024_06;
-
+/*
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -44,7 +44,7 @@ public class ErrorRedirectServlet extends HttpServlet {
         }
     }
 }
-
+*/
 
 /*
  * <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
