@@ -25,6 +25,7 @@ public class LambdaCombinedExample {
         System.out.println("\nFiltered list (names starting with 'A'):");
         filteredNames.forEach(System.out::println);
 
+        
         // 3. 모든 이름을 대문자로 변환
         List<String> upperCaseNames = names.stream()
                                            .map(name -> name.toUpperCase())
