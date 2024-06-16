@@ -31,6 +31,7 @@ package M2024_06;
 	        }
 	    }
 
+	    
 	    private static void calculateCosAndTan(double sin) {
 	        double cos = Math.cos(sin);
 	        double tan = Math.tan(sin);
