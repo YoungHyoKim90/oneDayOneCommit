@@ -40,7 +40,13 @@ public class chapter_01 {
 		System.out.println("C = " + C);
 		
 		//변수에 최초로 값이 저장될 때 메모리에 변수가 생성되고 이것을 변수 초기ㅘ라 하고 이 때의 값을 초기값이라고 함.
+		//초기화를 하지 앚ㄶ은 변수는 메모리에서 값을 읽을 수 없음 -> 최초로 값을 저장해야 변수가 생성되기 때문에.
 		
+		int value2; 
+		//int result = //value2 + 10; The local variable value2 may not have been initialized
+		value2 = 30;
+		int result = value2 + 10; 
+		System.out.println("result = " + result);
 		
 	}
 
