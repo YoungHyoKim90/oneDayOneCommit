@@ -18,6 +18,30 @@ public class chapter_01 {
 
 		System.out.println();
 
+		int age ;
+		double value;
+		float fValue;
+		byte A;
+		
+		int age1, age2, age3;
+		char ABC ;
+		
+		// 변수 타입 + 변수 명 + ; 이런식으로 변수를 선언
+		// 같은 타입을 가진 여러 변수명의 경우 타입 + 변수명,변수명,변수명 ; 이런식으로 여러개 선언이 가능함
+		
+		// 연산자. 사측연선이 모두 가능함. 
+		
+		// 변수 초기화
+		
+		int C = 0; // int의 초기화 값은 0
+		System.out.println("C = " + C);
+		System.out.println("C값에 1넣기");
+		C = 1;
+		System.out.println("C = " + C);
+		
+		//변수에 최초로 값이 저장될 때 메모리에 변수가 생성되고 이것을 변수 초기ㅘ라 하고 이 때의 값을 초기값이라고 함.
+		
+		
 	}
 
 }
