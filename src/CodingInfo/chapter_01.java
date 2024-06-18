@@ -48,6 +48,18 @@ public class chapter_01 {
 		int result = value2 + 10; 
 		System.out.println("result = " + result);
 		
+		result = 0;
+		System.out.println("result = 0 으로 값을 넣을 때 =" + result);
+		
+		result = value2 + 10; 
+		System.out.println("result = value2 + 10 일때 = " + result);
+		
+		result = 5;
+		
+		System.out.println("result = 5일 때 " + result);
+		
+		
+		
 	}
 
 }
