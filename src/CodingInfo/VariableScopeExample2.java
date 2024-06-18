@@ -12,4 +12,12 @@ public class VariableScopeExample2 {
 		System.out.println(sc1.e1); // 멤버 변수
 		System.out.println(sc1.a); // 지역 변수 a 
 	}
+	
+	// 변수의 타입
+	/*
+	 * 정수타입 byte, char, short, int, long
+	 * 실수타입 float, double
+	 * 논리타입 boolean
+	 * 
+	 */
 } 
