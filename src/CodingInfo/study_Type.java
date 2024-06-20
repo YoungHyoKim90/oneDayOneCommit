@@ -89,10 +89,12 @@ public class study_Type {
 		 */
 
 		System.out.println("doubleResult2 = " + Math.floor(doubleResult2)); //doubleResult2 = 1.0
-		System.out.println("doubleResult2 10곱하고 나누기 = " + Math.floor(doubleResult2*10)/10);
-		System.out.println("doubleResult2 100곱하고 나누기 = " + Math.floor(doubleResult2*100)/100);
-		System.out.println("doubleResult2 10나누고 곱하기 = " + Math.floor(doubleResult2/10)*10);
-		System.out.println("doubleResult2 100나누고 곱하기 = " + Math.floor(doubleResult2/100)*100);
+		System.out.println("doubleResult2 10곱하고 나누기 = " + Math.floor(doubleResult2*10)/10); //doubleResult2 10곱하고 나누기 = 1.6
+		System.out.println("doubleResult2 100곱하고 나누기 = " + Math.floor(doubleResult2*100)/100); //doubleResult2 100곱하고 나누기 = 1.6
+		System.out.println("doubleResult2 10나누고 곱하기 = " + Math.floor(doubleResult2/10)*10); //doubleResult2 10나누고 곱하기 = 0.0
+		System.out.println("doubleResult2 100나누고 곱하기 = " + Math.floor(doubleResult2/100)*100); //doubleResult2 100나누고 곱하기 = 0.0
+		
+		//자리수를 많게하여 확인하기
 	}
 
 }
