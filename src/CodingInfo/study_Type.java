@@ -95,6 +95,12 @@ public class study_Type {
 		System.out.println("doubleResult2 100나누고 곱하기 = " + Math.floor(doubleResult2/100)*100); //doubleResult2 100나누고 곱하기 = 0.0
 		
 		//자리수를 많게하여 확인하기
+		
+		floatValue2 = 1234567890.123456789F;
+		System.out.println("floatValue2 10곱하고 나누기 = " + Math.floor(floatValue2*10)/10); 
+		System.out.println("floatValue2 100곱하고 나누기 = " + Math.floor(floatValue2*100)/100);
+		System.out.println("floatValue2 10나누고 곱하기 = " + Math.floor(floatValue2/10)*10); 
+		System.out.println("floatValue2 100나누고 곱하기 = " + Math.floor(floatValue2/100)*100); 
 	}
 
 }
