@@ -102,6 +102,13 @@ public class study_Type {
 		System.out.println("floatValue2 100곱하고 나누기 = " + Math.floor(floatValue2*100)/100);
 		System.out.println("floatValue2 10나누고 곱하기 = " + Math.floor(floatValue2/10)*10); 
 		System.out.println("floatValue2 100나누고 곱하기 = " + Math.floor(floatValue2/100)*100); 
+		
+		doubleValue2 = 1234567890.123456789;
+		System.out.println("doubleValue2 =" + doubleValue2);
+		System.out.println("doubleValue2 10곱하고 나누기 = " + Math.floor(doubleValue2*10)/10); 
+		System.out.println("doubleValue2 100곱하고 나누기 = " + Math.floor(doubleValue2*100)/100);
+		System.out.println("doubleValue2 10나누고 곱하기 = " + Math.floor(doubleValue2/10)*10); 
+		System.out.println("doubleValue2 100나누고 곱하기 = " + Math.floor(doubleValue2/100)*100); 
 	}
 
 }
