@@ -39,6 +39,7 @@ public class FinancialCalendar extends JFrame {
         JPanel inputPanel = new JPanel();
         inputPanel.add(new JLabel("Amount:"));
         inputPanel.add(amountField);
+        
         inputPanel.add(addButton);
 
         add(calendar, BorderLayout.NORTH);
