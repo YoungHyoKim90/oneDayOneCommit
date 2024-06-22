@@ -42,6 +42,7 @@ public class FinancialCalendar extends JFrame {
         
         inputPanel.add(addButton);
 
+        
         add(calendar, BorderLayout.NORTH);
         add(inputPanel, BorderLayout.CENTER);
         add(scrollPane, BorderLayout.EAST);
