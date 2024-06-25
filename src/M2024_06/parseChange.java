@@ -51,7 +51,7 @@ public class parseChange {
 		
 		String stringCast = "";
 		stringCast = String.valueOf(byteValue);
-		
+		System.out.println("stringCast =" + stringCast);
 		
 	}
 }
