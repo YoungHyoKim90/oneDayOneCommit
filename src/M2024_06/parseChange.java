@@ -9,6 +9,7 @@ public class parseChange {
 		String strValue5 = "20.888";
 		String strValue6 = "true";
 		String strValue7 = "false";
+		String strValue8 = "100.777";
 		
 		byte byteValue = Byte.parseByte(strValue);
 		System.out.println("byteValue =" + byteValue);
@@ -19,7 +20,7 @@ public class parseChange {
 		int intValue = Integer.parseInt(strValue3);
 		System.out.println("intValue =" + intValue);
 
-		long longValue = Long.parseLong(strValue3);
+		long longValue = Long.parseLong(strValue8);
 		System.out.println("longValue =" + longValue);
 		
 		float floatValue = Float.parseFloat(strValue4);
