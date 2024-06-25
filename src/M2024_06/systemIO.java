@@ -2,7 +2,7 @@ package M2024_06;
 
 import java.util.Scanner;
 
-public class systemOI {
+public class systemIO {
 
 	public static void main(String[] args) {
 		
@@ -21,6 +21,7 @@ public class systemOI {
 		System.out.println();
 		System.out.println("원하는 값을 입력하세요.");
 		Scanner scan = new Scanner(System.in);
+		//시스템의 입력 장치로부터 값을 받아 읽는 scanner를 생성 -> 생성된 Scanner를 변수에 저장, scan변수 선언
 		//시스템의 표준 입력 장치(키보드)에서 읽음
 		String inputData = scan.nextLine();
 		System.out.println("-----------------");
