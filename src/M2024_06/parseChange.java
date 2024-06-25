@@ -13,19 +13,19 @@ public class parseChange {
 		byte byteValue = Byte.parseByte(strValue);
 		System.out.println("byteValue =" + byteValue);
 		
-		short shortValue = Short.parseShort(strValue);
+		short shortValue = Short.parseShort(strValue2);
 		System.out.println("shortValue =" + shortValue);
 		
-		int intValue = Integer.parseInt(strValue);
+		int intValue = Integer.parseInt(strValue3);
 		System.out.println("intValue =" + intValue);
 
-		long longValue = Long.parseLong(strValue);
+		long longValue = Long.parseLong(strValue3);
 		System.out.println("longValue =" + longValue);
 		
-		float floatValue = Float.parseFloat(strValue);
+		float floatValue = Float.parseFloat(strValue4);
 		System.out.println("floatValue =" + floatValue );
 		
-		double doubleValue = Double.parseDouble(strValue);
+		double doubleValue = Double.parseDouble(strValue5);
 		System.out.println("doubleValue =" + doubleValue);
 		
 		boolean booleanValue = Boolean.parseBoolean(strValue6);
