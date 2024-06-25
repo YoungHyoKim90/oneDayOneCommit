@@ -45,6 +45,13 @@ public class parseChange {
 		 * booleanValue =true 
 		 * booleanValue =false
 		 */
-
+		//반대로 문자열로 변환도 가능 -> String.valueOf()
+		
+		System.out.println("---------------------------");
+		
+		String stringCast = "";
+		stringCast = String.valueOf(byteValue);
+		
+		
 	}
 }
