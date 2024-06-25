@@ -99,5 +99,28 @@ public class operatorTest {
 		intResult = -intTest;
 		System.out.println("intResult = " + intResult);
 		
+		//단항 연산자에서 변수 앞에오는 ++,--는 우선 계산 되지만, 뒤에오는 ++, --는 연산 끝에 계산됨.
+		
+		System.out.println("---------------------------");
+		
+		intTest = 0;
+		intResult = 0;
+		intTest = 10;
+		
+		intResult= ++intTest + 10;
+		System.out.println("intTest = " + intTest); //intTest = 11
+		System.out.println("intResult = " + intResult); //intResult = 21
+		
+		intResult = 0;
+		intTest = 10;
+		
+		intResult= intTest++ + 10;
+		System.out.println("intTest = " + intTest); //intTest = 11
+		System.out.println("intResult = " + intResult); //intResult = 20
+		
+		intResult = 0;
+		intResult= intTest++ + 10;
+		System.out.println("intTest = " + intTest); //intTest = 12
+		System.out.println("intResult = " + intResult); //intResult = 21
 	}
 }
