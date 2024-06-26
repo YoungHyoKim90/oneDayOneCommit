@@ -68,6 +68,51 @@ public class booleanTypeTest {
 	value /= 2;
 	System.out.println("value에 2나누기 = " + value );
 	
+	value =1;
+	value %= 2;
+	System.out.println("value에 2나누고 남는 값 = " + value );
+	
+	System.out.println("------------------------");
+	
+	boolean booleanTestValue = true;
+	System.out.println("boolean booleanTestValue = " + booleanTestValue);
+	booleanTestValue &= true;
+	System.out.println("booleanTestValue &= true; = " + booleanTestValue);
+	booleanTestValue |= true;
+	System.out.println("booleanTestValue |= true; = " + booleanTestValue);
+	booleanTestValue ^= true;
+	System.out.println("booleanTestValue ^= true; = " + booleanTestValue);
+	System.out.println("------------------------");
+	
+	booleanTestValue = false;
+	System.out.println("boolean booleanTestValue = " + booleanTestValue);
+	booleanTestValue &= true;
+	System.out.println("booleanTestValue &= true; = " + booleanTestValue);
+	booleanTestValue |= true;
+	System.out.println("booleanTestValue |= true; = " + booleanTestValue);
+	booleanTestValue ^= true;
+	System.out.println("booleanTestValue ^= true; = " + booleanTestValue);
+	System.out.println("------------------------");
+	
+	booleanTestValue = true;
+	System.out.println("boolean booleanTestValue = " + booleanTestValue);
+	booleanTestValue &= false;
+	System.out.println("booleanTestValue &= false; = " + booleanTestValue);
+	booleanTestValue |= false;
+	System.out.println("booleanTestValue |= false; = " + booleanTestValue);
+	booleanTestValue ^= false;
+	System.out.println("booleanTestValue ^= false; = " + booleanTestValue);
+	System.out.println("------------------------");
+	
+	booleanTestValue = false;
+	System.out.println("boolean booleanTestValue = " + booleanTestValue);
+	booleanTestValue &= false;
+	System.out.println("booleanTestValue &= false; = " + booleanTestValue);
+	booleanTestValue |= false;
+	System.out.println("booleanTestValue |= false; = " + booleanTestValue);
+	booleanTestValue ^= false;
+	System.out.println("booleanTestValue ^= false; = " + booleanTestValue);
+	
 	//삼항 연산자
 	/*
 	 * 3개의 피연산자를 필요로 하는 연산자
