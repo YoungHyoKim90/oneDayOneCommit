@@ -8,17 +8,8 @@ public class booleanTypeTest {
 		int a = 10;
 		int b = 20;
 		int c = 30;
-		
-		boolean trueAndFalse = false;
-		
-		System.out.println( trueAndFalse((a+b)>c));
-		
-	}
+			
 
-	private static char[] trueAndFalse(boolean b) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	// 이항 연산자의 종류
 	/*
 	 *  == 두 피연산자의 값이 같은지를 검사
@@ -28,4 +19,41 @@ public class booleanTypeTest {
 	 *  < 왼쪽의 피연자가 오른쪽 연산자보다 작은지를 검사
 	 *  <= 왼쪽의 피연자가 오른쪽 연산자보다 크거나 같은지를 검사
 	 */
+	
+	//논리 연산자
+	/*
+	 * && or &  피연산자 모두가 true일 경우에만 연산 결과가 true
+	 * || or | 피연산자 중 하나만 true여도 연산 결과가 true
+	 * ^ 피 연산자가 하나만 true이고 다른 사나가 false일 경우에만 연산 결과가 true 트루트루 -> false 펄스펄스 ->false 
+	 * ! 피연산자의 논리 값을 바꿈
+	 */
+
+	boolean trueBoolean = true;
+	boolean falseBoolean = false;
+	
+	boolean resultBoolean ;
+	
+	resultBoolean = trueBoolean && falseBoolean ;
+	System.out.println("resultBoolean && =" + resultBoolean);
+
+	resultBoolean = trueBoolean || falseBoolean ;
+	System.out.println("resultBoolean || =" + resultBoolean);
+	
+	resultBoolean = trueBoolean ^ falseBoolean ;
+	System.out.println("resultBoolean ^ =" + resultBoolean);
+	
+	resultBoolean = !trueBoolean && !falseBoolean ;
+	System.out.println("resultBoolean && =" + resultBoolean);
+	
+	//대입연산자 (오른쪽 피연산자의 값을 왼쪽 변수에 저장한다.
+	/* 종류 :	= , += , -= , *= . /= , %= , &= , |= , ^= 
+	 */
+	
+	//삼항 연산자
+	/*
+	 * 3개의 피연산자를 필요로 하는 연산자
+	 * ? 앞의 조건식에 따라 콜론 앞뒤의 피연산자 선택
+	 * 조건식 ? 값또는연산식 : 값또는연산식
+	 */
+	}
 }
