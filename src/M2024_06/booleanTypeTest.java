@@ -49,6 +49,25 @@ public class booleanTypeTest {
 	/* 종류 :	= , += , -= , *= . /= , %= , &= , |= , ^= 
 	 */
 	
+	System.out.println("------------------------");
+	
+	int value = 1;
+	
+	value = 10;	
+	System.out.println("value에 10 넣기 = " + value );
+	value = 1;
+	value += 20;
+	System.out.println("value에 20더하기 = " + value );
+	value = 1;
+	value -= 10;
+	System.out.println("value에 10 빼기 = " + value );
+	value = 1;
+	value *= 3;
+	System.out.println("value에 3 곱하기 = " + value );
+	value =1;
+	value /= 2;
+	System.out.println("value에 2나누기 = " + value );
+	
 	//삼항 연산자
 	/*
 	 * 3개의 피연산자를 필요로 하는 연산자
