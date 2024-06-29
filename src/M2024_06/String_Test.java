@@ -20,6 +20,7 @@ public class String_Test {
 
 		// new 연산자를 통해 객체 생성을 하여 같은 문자열 리터럴을 가지고 있어서 각자의 객체로 생성할 수 있다.
 
+		
 		String name3 = new String("123");
 		String name4 = new String("123");
 		System.out.println(name3 == name4); // false
