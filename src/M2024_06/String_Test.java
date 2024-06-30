@@ -26,6 +26,7 @@ public class String_Test {
 
 		// 다른 객체를 가진 다른 참조 변수의 경우 문자열을 비교하려면 ==가 아닌 equals()를 사용하여 문자열을 비교한다.
 
+		
 		System.out.println(name.equals(hobby)); // false
 		System.out.println(name3.equals(name4)); // true
 	} // String 변수 초기 값으로는 null을 대입하여 사용한다. null인 객체는 참조하는 변수가 없음을 의미하고 가비지컬렉터에 의해
