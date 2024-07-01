@@ -53,6 +53,9 @@ public class ArrayTest {
 		//2차원 배열
 		int[][] score2 = new int[2][3];
 		System.out.println("score2의 길이 = " + score2.length);
+		System.out.println("score2[0]의 길이 = " + score2[0].length);
+		System.out.println("score2[1]의 길이 = " + score2[1].length);
+		System.out.println("score2[2]의 길이 = " + score2[2].length);
 				
 		
 	}
