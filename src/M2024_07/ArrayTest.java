@@ -38,25 +38,76 @@ public class ArrayTest {
 			System.out.println("sum = " + sum);
 			System.out.println("score = " + score);
 			System.out.println("scores + " + scores);
-			 /* sum = 1 
-			 * score = [I@15db9742 
-			 * scores + [I@6d06d69c */
-			System.out.println("score["+i+"] = " + score[i]);
-			// score[0] = 1 
-			
-			System.out.println("scores["+i+"] = " + scores[i]);
-			//scores[0] = 0 -> 넣어둔 값이 없어 0... 
+			/*
+			 * sum = 1 score = [I@15db9742 scores + [I@6d06d69c
+			 */
+			System.out.println("score[" + i + "] = " + score[i]);
+			// score[0] = 1
+
+			System.out.println("scores[" + i + "] = " + scores[i]);
+			// scores[0] = 0 -> 넣어둔 값이 없어 0...
 		} // for문 블록 end ***index -> score [i] 이걸 인덱스라고 하며 0부터 시작된다.
 		int avg = sum / 30;
-		
-		
-		//2차원 배열
+
+		// 2차원 배열
 		int[][] score2 = new int[2][3];
 		System.out.println("score2의 길이 = " + score2.length);
 		System.out.println("score2[0]의 길이 = " + score2[0].length);
 		System.out.println("score2[1]의 길이 = " + score2[1].length);
-		System.out.println("score2[2]의 길이 = " + score2[2].length);
-				
+
+		System.out.println("-------------------------------");
+
+		// 다차원 배열
+
+		int[][] score3 = new int[2][];
+		score3[0] = new int[2]; // ㅁㅁ
+		score3[1] = new int[3]; // ㅁㅁㅁ
+
+		System.out.println("score3의 길이 = " + score3.length);
+		System.out.println("score3[0]의 길이 = " + score3[0].length);
+		System.out.println("score3[1]의 길이 = " + score3[1].length);
+
+		System.out.println("-------------------------------");
+
+		// 객체를 참조하는 배열
+		/*
+		 * 참조 타입 배열 요소에 값(정수, 실수, 논리값)을 저장하지 않고, 
+		 * 객체의 번지를 가지고 있음
+		 */
 		
+		String[] strArray = new String[3];
+		strArray[0] = "Java";
+		strArray[1] = "Java";
+		strArray[2] = new String("Java");
+
+		System.out.println("strArray[0] = " + strArray[0]);
+		System.out.println("strArray[1] = " + strArray[1]);
+		System.out.println("strArray[2] = " + strArray[2]);
+		/*
+		 * strArray[0] = Java strArray[1] = Java strArray[2] = Java
+		 */
+
+		System.out.println(strArray[0] == strArray[1]); // true 객체를 비교
+		System.out.println(strArray[0] == strArray[2]); // false 객체를 비교
+		System.out.println(strArray[0].equals(strArray[1])); // true 문자열 비교
+		System.out.println(strArray[0].equals(strArray[2])); // true 문자열 비교
+
+		// 배열 복사
+		/*
+		 *  for문을 이용해서 요소 하나 하나를 복사
+		 *  System.arraycopy()를 이용하여 복사할 수 있다.
+		 */
+		
+		//System.arraycopy(src, srcPos, dest, destPos, length);
+		
+		String[] oldStrArray = {"java", "array", "copy"};
+		
+		String[] newStrArray = new String[5];
+		
+		System.arraycopy(oldStrArray, 0, newStrArray, 0, oldStrArray.length);
+		
+		
+		
+
 	}
 }
