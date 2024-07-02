@@ -71,10 +71,9 @@ public class ArrayTest {
 
 		// 객체를 참조하는 배열
 		/*
-		 * 참조 타입 배열 요소에 값(정수, 실수, 논리값)을 저장하지 않고, 
-		 * 객체의 번지를 가지고 있음
+		 * 참조 타입 배열 요소에 값(정수, 실수, 논리값)을 저장하지 않고, 객체의 번지를 가지고 있음
 		 */
-		
+
 		String[] strArray = new String[3];
 		strArray[0] = "Java";
 		strArray[1] = "Java";
@@ -94,20 +93,30 @@ public class ArrayTest {
 
 		// 배열 복사
 		/*
-		 *  for문을 이용해서 요소 하나 하나를 복사
-		 *  System.arraycopy()를 이용하여 복사할 수 있다.
+		 * for문을 이용해서 요소 하나 하나를 복사 System.arraycopy()를 이용하여 복사할 수 있다.
 		 */
-		
-		//System.arraycopy(src, srcPos, dest, destPos, length);
-		
-		String[] oldStrArray = {"java", "array", "copy"};
-		
+
+		// System.arraycopy(src, srcPos, dest, destPos, length);
+
+		String[] oldStrArray = { "java", "array", "copy" };
+
 		String[] newStrArray = new String[5];
-		
+
+		System.out.println("복사전");
+		System.out.println("newStrArray[0] = " + newStrArray[0]);
+		System.out.println("newStrArray[1] = " + newStrArray[1]);
+		System.out.println("newStrArray[2] = " + newStrArray[2]);
+
 		System.arraycopy(oldStrArray, 0, newStrArray, 0, oldStrArray.length);
-		
-		
-		
+
+		System.out.println("복사후");
+		System.out.println("newStrArray[0] = " + newStrArray[0]);
+		System.out.println("newStrArray[1] = " + newStrArray[1]);
+		System.out.println("newStrArray[2] = " + newStrArray[2]);
+
+		/*
+		 * newStrArray[0] = java newStrArray[1] = array newStrArray[2] = copy
+		 */
 
 	}
 }
