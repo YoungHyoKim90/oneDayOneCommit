@@ -2,7 +2,7 @@ package M2024_01;
 
 public class Calculator {
     // 두 정수를 더하는 메서드
-    public int add(int a, int b) {
+    public static int add(int a, int b) {
         return a + b;
     }
 
