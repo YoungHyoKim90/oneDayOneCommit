@@ -22,3 +22,12 @@ public class ClassTest {
 실행 클래스
  main() 메소드 제공 역할 - StudentExample.java
 */
+
+/*
+	field - 객체의 데이터가 저장되는 곳
+	ex ) int fieldName;
+	Constructor - 생성자, 객체 생성 시 초기화 역활 담당
+	ex) ClassName(){}
+	Method - 객체의 동작에 해당하는 실행 블록
+	void methodName(){}
+*/
