@@ -26,6 +26,9 @@ public class ClassTest2 {
 		// 초기값은 주어질 수도, 생략할 수도 있음
 		// 초기값 지정되지 않은 필드는 객체 생성 시 자동으로 기본 초기값 설정
 
+		public void main(String[] args) {
+			hundai HD = new hundai();
+			
+		}
 	}
-
 }
