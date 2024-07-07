@@ -28,7 +28,7 @@ public class ClassTest2 {
 
 		public void main(String[] args) {
 			hundai HD = new hundai();
-			
+			System.out.println(HD);
 		}
 	}
 }
