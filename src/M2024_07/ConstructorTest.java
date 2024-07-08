@@ -21,6 +21,7 @@ public class ConstructorTest {
 	ConstructorTest(String model, String color, int maxSpeed){}
 	public static void main(String[] args) {
 		ConstructorTest myCar = new ConstructorTest("그랜저", "검정", 300);
+		System.out.println(myCar); //M2024_07.ConstructorTest@15db9742
 	}
 
 }
