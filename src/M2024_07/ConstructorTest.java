@@ -18,6 +18,10 @@ public class ConstructorTest {
 	 * 
 	 * [public] class(){}
 	 */
+	ConstructorTest(String model, String color, int maxSpeed){}
+	public static void main(String[] args) {
+		ConstructorTest myCar = new ConstructorTest("그랜저", "검정", 300);
+	}
 
 }
 /*
@@ -29,3 +33,4 @@ public class Car{
 }
 
 */
+
