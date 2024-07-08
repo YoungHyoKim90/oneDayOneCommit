@@ -18,5 +18,14 @@ public class ConstructorTest {
 	 * 
 	 * [public] class(){}
 	 */
-	
+
 }
+/*
+public class Car{
+	
+	public Car() {} ->  여기서의 Car()는 기본생성자 // 컴파일시 바이트 코드 파일에서 자동 추가된다.
+	
+	Car myCar = new Car(); -> 여기서의  Car()는 기본생성자 이다. 
+}
+
+*/
