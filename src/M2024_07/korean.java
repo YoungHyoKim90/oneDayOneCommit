@@ -28,4 +28,5 @@ public class korean {
 		
 		this.ssn = ssn; // this.필드 = 매개변수;
 	}
+	
 }
