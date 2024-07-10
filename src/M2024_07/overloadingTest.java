@@ -17,4 +17,10 @@ public class overloadingTest {
 //		
 //	}
 	
+//	Car(){}
+//	Car(String model){}
+//	Car(String model,String color){}
+//	Car(String model,String color, int maxSpeed){}
+	
+	
 }
