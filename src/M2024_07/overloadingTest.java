@@ -22,5 +22,5 @@ public class overloadingTest {
 //	Car(String model,String color){}
 //	Car(String model,String color, int maxSpeed){}
 	
-	
+	//매개 변수의 타입, 개수, 선언된 순서 같은 경우, 매개 변수 이름만 바꾸는 것은 생성자 오버로딩이 아니다.
 }
