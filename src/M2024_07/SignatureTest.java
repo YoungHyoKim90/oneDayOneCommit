@@ -55,5 +55,14 @@ public class SignatureTest {
 	int sum1(int[] values) {
 		return 0;
 		};
-
+		
+	void method1(String p1, int p2) {
+		//실행
+		System.out.println("void method1 이 실행됨");
+	}
+	void method2() {
+		System.out.println("void method2가 실행됨");
+		method1("홍길동",100);
+		
+	}
 }
