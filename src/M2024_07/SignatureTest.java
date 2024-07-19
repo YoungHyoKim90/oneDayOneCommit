@@ -64,5 +64,6 @@ public class SignatureTest {
 		System.out.println("void method2가 실행됨");
 		method1("홍길동",100);
 		
+		
 	}
 }
