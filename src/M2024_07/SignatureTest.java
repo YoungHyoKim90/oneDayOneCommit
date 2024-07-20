@@ -25,6 +25,7 @@ public class SignatureTest {
 
 		return y; // --리턴값 존재 여부에 따라 메소드 호출 방법 다름
 
+		
 	};
 
 	/*
@@ -63,7 +64,5 @@ public class SignatureTest {
 	void method2() {
 		System.out.println("void method2가 실행됨");
 		method1("홍길동",100);
-		
-		
 	}
 }
