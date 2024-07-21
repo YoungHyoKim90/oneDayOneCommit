@@ -27,7 +27,6 @@ public class SignatureTest {
 
 		
 	};
-
 	/*
 	 * 메소드 이름 숫자로 시작하면 안 되고, $와 _ 제와한 특수문자 사용 불가 메소드 이름은 관례적으로 소문자로 작성 서로 다른 단어가 혼합된
 	 * 이름일 경우 뒤이어 오는 단어의 첫 글자를 대문자로 작성
@@ -71,4 +70,7 @@ public class SignatureTest {
 	}
 }
 
-
+/*
+ * sqlplus -> shutdown 
+ * start up
+ */
