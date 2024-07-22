@@ -77,6 +77,10 @@ public class SignatureTest {
 		double result = x + y ;
 		return result;
 	}
+	int x = 10; 
+	//double y = 20.3;
+	//SignatureTest(x, y);
+	
 }
 
 
