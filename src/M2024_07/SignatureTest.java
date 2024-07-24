@@ -24,8 +24,6 @@ public class SignatureTest {
 	double divide(int x, int y) {
 
 		return y; // --리턴값 존재 여부에 따라 메소드 호출 방법 다름
-
-		
 	};
 	/*
 	 * 메소드 이름 숫자로 시작하면 안 되고, $와 _ 제와한 특수문자 사용 불가 메소드 이름은 관례적으로 소문자로 작성 서로 다른 단어가 혼합된
