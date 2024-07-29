@@ -11,15 +11,11 @@ package M2024_07;
  * 
  */
 public class InheritanceTest {
-
-}
-
-public class A {
 	void method1() {
 		System.out.println("method1");
 	}
 
-	public class B extends A {
+	public class B extends InheritanceTest {
 		String field2;
 
 		void method2() {
