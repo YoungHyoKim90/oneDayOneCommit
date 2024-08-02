@@ -23,6 +23,8 @@ public class InheritanceTest {
 		void method2() {
 		}
 	}
+	
+	
 
 	public class 부모클래스 {
 		void method3() {
