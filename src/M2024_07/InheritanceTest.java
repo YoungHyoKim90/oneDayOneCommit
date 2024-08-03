@@ -25,7 +25,7 @@ public class InheritanceTest {
 	}
 	
 	
-
+	
 	public class 부모클래스 {
 		void method3() {
 		}
