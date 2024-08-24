@@ -24,13 +24,11 @@ public class InheritanceTest {
 		}
 	}
 
-	
 	public class 부모클래스 {
 		void method3() {
 		}
 	}
 
-	
 	public class 자식클래스 extends 부모클래스 {
 		void method4() {
 
