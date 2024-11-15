@@ -1,5 +1,3 @@
 # oneDayOneCommit
 study
 
-
-
