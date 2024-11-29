@@ -1,2 +1,2 @@
 # oneDayOneCommit
-study
+study start
