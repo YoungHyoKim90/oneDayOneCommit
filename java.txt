@@ -155,3 +155,33 @@ public class Main {
         person.introduce(); // 메소드 호출
     }
 }
+
+
+/*
+
+
+다음으로 배열과 컬렉션, 그리고 예외 처리를 배워보는 것이 좋습니다. 이를 통해 데이터를 효율적으로 관리하고, 프로그램에서 발생할 수 있는 문제를 안정적으로 처리할 수 있어요.
+
+1. 배열과 컬렉션
+1.1 배열 (Array)
+배열은 동일한 데이터 타입의 요소를 연속적으로 저장하는 자료구조입니다.
+
+배열 선언 및 사용:
+
+*/
+
+public class ArrayExample {
+    public static void main(String[] args) {
+        // 배열 선언 및 초기화
+        int[] numbers = {10, 20, 30, 40, 50};
+        
+        // 배열 요소 접근
+        System.out.println("첫 번째 요소: " + numbers[0]);
+        
+        // 배열 순회
+        System.out.println("배열 요소 출력:");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+    }
+}
