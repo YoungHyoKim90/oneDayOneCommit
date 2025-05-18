@@ -1,4 +1,2 @@
 # oneDayOneCommit
 study start
-
-
